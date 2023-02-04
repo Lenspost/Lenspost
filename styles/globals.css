@@ -47,10 +47,70 @@ html{
  margin-left: 100px;
  width: 240px;
  height: 50px;
- background: #0af7ef;
+ background: rgb(10,247,239);
+background: linear-gradient(55deg , rgba(10,247,239,1) 62%, rgba(255,255,255,1) 55%, rgba(248,255,255,1) 68%, rgba(92,250,244,1) 63%, rgba(10,247,239,1)75%, rgba(250,255,255,1) 70%, rgba(250,255,255,1) 90%, rgba(92,250,244,1) 90%);
  z-index: 10;
 }
 
 .bgMask{
   background-image: url(../Assets/Mask.png);
 }
+
+.btn-bl{
+  display: block;
+  text-align: center;
+ position: relative;
+ text-decoration: none;
+ z-index: 10;
+  border: white 2px solid;
+  border-bottom: white 8px solid;
+  border-top:0px;
+  width: 120px ;
+  border-left:20px;
+  border-right: 0px;
+  height:40px;
+  
+}
+
+
+.btn-bl:after {
+  content: ''; 
+  position: absolute;
+   background: white;
+ width: 2px;
+ height: 31px;
+   left: 9px; 
+   bottom: 0px; 
+   transform: skew(-30deg);
+ z-index: 5;
+ }
+
+.btn-bl:before {
+  content: ''; 
+  position: absolute;
+   background: white;
+  width: 2px;
+  height: 31px;
+   right: 12px; 
+   bottom: 0px; 
+   transform: skew(-144deg);
+ z-index: 5;
+ }
+
+ .btn-bl-span{
+  display: block;
+  text-align: center;
+ position: relative;
+ }
+
+ .btn-bl-span:after {
+  content: ''; 
+  position: absolute;
+   background: white;
+ width: 60px;
+ height: 1.1px;
+   left: 37px; 
+   bottom: 25px; 
+   transform: skew(-91deg);
+ z-index: 5;
+ }

@@ -19,7 +19,7 @@ export default function HeroSec() {
               </div>
               <form action="#" className="mt-2 sm:max-w-md sm:w-full sm:flex">
                 <div className="min-w-0 pl-10 flex-1">
-                  <Image src={To}  />
+                  <Image src={To} alt="" />
                 </div>
                 <div className="mt-4 sm:mt-0 sm:ml-3">
                 <a href="#" className="btn">Join the waitist NOW</a>	
@@ -28,7 +28,7 @@ export default function HeroSec() {
               <div className="">
                 <div className="inline-flex items-center divide-x divide-gray-300">
                   <div className="flex-shrink-0 flex pr-5">
-                <Image src={Everywhere} />
+                <Image src={Everywhere} alt="" />
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ export default function HeroSec() {
         <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
           <div className="py-12 sm:relative lg:absolute lg:inset-y-0 lg:right-0 ">
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-             <Image src={Hero} />
+             <Image src={Hero} alt="" />
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Creator from './Components/Creator'
 import Header from "./Components/Header"
 import HeroSec from "./Components/HeroSec"
 
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="bg-black">
        <Header />
        <HeroSec />
+       <Creator />
       </main>
     </>
   )
