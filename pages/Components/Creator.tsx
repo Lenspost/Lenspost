@@ -21,7 +21,6 @@ function Creator() {
             <Image className="" src={problem} alt="" />
             <Image src={space} className="pl-10 pr-10 bottom-40 absolute left-[860px]" alt="" />
             </div>
-           
         </div>
        
     </div>
